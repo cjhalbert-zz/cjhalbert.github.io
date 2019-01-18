@@ -1,3 +1,36 @@
 * {
-    color: red;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 400vh;
+    position: relative;
+    background-color: #FFFCF7;
+    &:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        left: 100px;
+        border-left: 3px solid #D8D8D8;
+        box-shadow: -15px 0 0 0px #D8D8D8;
+        z-index: 1;
+    }
+}
+main {
+    border-bottom: 3px solid #D8D8D8;
+    height: 100vh;
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100vw;
+        bottom: 10px;
+        left: 0;
+        border-bottom: 3px solid #D8D8D8;
+    }
+    section {
+        margin-left: 100px;
+        width: 100%;
+        height: 100%;
+    }
 }
