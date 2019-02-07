@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
-    height: 400vh;
     position: relative;
     background-color: #FFFCF7;
     &:before {
@@ -18,7 +18,6 @@ body {
 }
 main {
     border-bottom: 3px solid #D8D8D8;
-    height: 100vh;
     position: relative;
     &:after {
         content: '';
@@ -28,9 +27,15 @@ main {
         left: 0;
         border-bottom: 3px solid #D8D8D8;
     }
-    section {
+    .page-section {
         margin-left: 100px;
         width: 100%;
         height: 100%;
     }
+}
+.heading-1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 100px 0 100px 200px;
 }

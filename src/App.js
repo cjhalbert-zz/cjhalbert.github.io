@@ -14,8 +14,8 @@ class App extends Component {
         <Header />
         <Splash />
         <Projects />
-        <Contact />
         <About />
+        <Contact />
       </div>
     );
   }
