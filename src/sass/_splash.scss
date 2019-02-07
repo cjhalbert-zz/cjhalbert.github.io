@@ -1,0 +1,21 @@
+.splash {
+    height: calc(100vh - 250px);
+    section {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        img {
+            height: 400px;
+            margin-top: 50px;
+            float: right;
+        }
+        .intro-text {
+            font-family: "PT Serif", serif;
+            font-style: italic;
+            font-size: 100px;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+    }
+}

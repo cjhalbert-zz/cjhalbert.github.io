@@ -1,0 +1,34 @@
+.contact {
+    height: 500px;
+    .contact-section {
+        width: 100vw;
+        height: 75px;
+        border-top: 3px solid #D8D8D8;
+        display: flex;
+        div {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 100px;
+            p {
+                font-family: "PT Serif", serif;
+                font-style: italic;
+                margin-right: 20px;
+                font-size: 20px;
+            }
+            h2 {
+                font-family: "Montserrat", sans-serif;
+            }
+            &:first-child {
+                border-right: 3px solid #D8D8D8;
+                padding-left: 203px;
+            }
+        }
+        &:last-child {
+            border-bottom: 3px solid #D8D8D8;
+        }
+    }
+}
