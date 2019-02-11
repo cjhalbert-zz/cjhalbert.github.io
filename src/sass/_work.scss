@@ -1,0 +1,78 @@
+.work {
+    position: relative;
+    .work-section {
+        margin-bottom: 200px;
+        .projects-list {
+            width: 100vw;
+            li {
+                border-top: 2px solid #979797;
+                padding-left: 203px;
+                padding: 1rem 0 1rem 203px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                cursor: pointer;
+                span {
+                    display: flex;
+                    flex-direction: row;
+                    p {
+                        font-family: "PT Serif", serif;
+                        font-style: italic;
+                        margin-right: 20px;
+                        font-size: 20px;
+                    }
+                    h2 {
+                        font-family: "Montserrat", sans-serif;
+                    }
+                }
+                .tab-content {
+                    display: none;
+                    p {
+                        font-family: "PT Serif", serif;
+                        margin: 20px 20px 20px 0;
+                        font-size: 15px;
+                        max-width: 700px;
+                    }
+                    .checkout-button {
+                        border: 1px solid black;
+                        background: none;
+                        font-family: "PT Serif", serif;
+                        font-style: italic;
+                        font-size: 20px;
+                        padding: 5px 20px;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                        }
+                    }
+                }
+                &:last-child {
+                    border-bottom: 2px solid #979797;
+                }
+                &:hover {
+                    background-color: #C8DEF7;
+                }
+            }
+            .active-tab {
+                .tab-content {
+                    display: block;
+                }
+                background-color: #C8DEF7;
+            }            
+        }
+    }
+    .project-preview {
+        position: absolute;
+        right: 200px;
+        top: 100px;
+        width: 500px;
+        height: 500px;
+        background-color: #FFFCF6;
+        border: 2px solid #979797;
+        overflow: hidden;
+        img {
+            width: 500px;
+        }
+    }
+}
