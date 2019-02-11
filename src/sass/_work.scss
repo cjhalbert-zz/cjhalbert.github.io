@@ -30,7 +30,8 @@
                     p {
                         font-family: "PT Serif", serif;
                         margin: 20px 20px 20px 0;
-                        font-size: 15px;
+                        font-size: 16px;
+                        line-height: 25px;
                         max-width: 700px;
                     }
                     .checkout-button {
@@ -41,9 +42,11 @@
                         font-size: 20px;
                         padding: 5px 20px;
                         cursor: pointer;
+                        transition: .1s all;
                         &:hover {
                             background-color: black;
                             color: white;
+                            transition: .1s all;
                         }
                     }
                 }
