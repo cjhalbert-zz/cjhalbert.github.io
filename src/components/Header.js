@@ -11,9 +11,9 @@ class Header extends Component {
                     <h1>coreyhalbert</h1>
                     <hr/>
                     <ul>
-                        <li><a href=""><h2>work</h2></a></li>
-                        <li><a href=""><h2>about</h2></a></li>
-                        <li><a href=""><h2>contact</h2></a></li>
+                        <li><a href="#work"><h2>work</h2></a></li>
+                        <li><a href="#about"><h2>about</h2></a></li>
+                        <li><a href="#contact"><h2>contact</h2></a></li>
                     </ul>
                 </nav>
                 <hr/>

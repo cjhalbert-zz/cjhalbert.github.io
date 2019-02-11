@@ -3,7 +3,7 @@
     .contact-section {
         width: 100vw;
         height: 75px;
-        border-top: 3px solid #D8D8D8;
+        border-top: 2px solid #979797;
         display: flex;
         div {
             width: 50%;
@@ -19,16 +19,20 @@
                 margin-right: 20px;
                 font-size: 20px;
             }
+            a {
+                text-decoration: none;
+                color: black;
+            }
             h2 {
                 font-family: "Montserrat", sans-serif;
             }
             &:first-child {
-                border-right: 3px solid #D8D8D8;
+                border-right: 2px solid #979797;
                 padding-left: 203px;
             }
         }
         &:last-child {
-            border-bottom: 3px solid #D8D8D8;
+            border-bottom: 2px solid #979797;
         }
     }
 }
