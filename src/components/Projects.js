@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import A from '/Applications/MAMP/htdocs/portfolio/src/assets/A.svg'
 import Brec from '/Applications/MAMP/htdocs/portfolio/src/assets/brec.png'
 import goth from '/Applications/MAMP/htdocs/portfolio/src/assets/goth.png';
@@ -55,7 +57,7 @@ class Projects extends Component {
                             </span>
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <button className="checkout-button">check it out</button>
+                                <Link to="/Project/thirtysixdaysoftype"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                         <li id="tab-2" onClick={() => this.toggleActiveTab('tab-2')}>
@@ -65,7 +67,7 @@ class Projects extends Component {
                             </span>
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <button className="checkout-button">check it out</button>
+                                <Link to="/Project/beneficencerecords"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                         <li id="tab-3" onClick={() => this.toggleActiveTab('tab-3')}>
@@ -75,7 +77,7 @@ class Projects extends Component {
                             </span>
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <button className="checkout-button">check it out</button>
+                                <Link to="/Project/showposters"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                         <li id="tab-4" onClick={() => this.toggleActiveTab('tab-4')}>
@@ -85,7 +87,7 @@ class Projects extends Component {
                             </span>
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <button className="checkout-button">check it out</button>
+                                <Link to="/Project/whocares"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                         <li id="tab-5" onClick={() => this.toggleActiveTab('tab-5')}>
@@ -95,7 +97,7 @@ class Projects extends Component {
                             </span>
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <button className="checkout-button">check it out</button>
+                                <Link to="/Project/innovativeeducatorsconference"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                         <li id="tab-6" onClick={() => this.toggleActiveTab('tab-6')}>
@@ -105,7 +107,7 @@ class Projects extends Component {
                             </span>
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <button className="checkout-button">check it out</button>
+                                <Link to="/Project/maxwelldenari"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                         <li id="tab-7" onClick={() => this.toggleActiveTab('tab-7')}>
@@ -115,7 +117,7 @@ class Projects extends Component {
                             </span>
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <button className="checkout-button">check it out</button>
+                                <Link to="/Project/restinpeach"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                     </ul>

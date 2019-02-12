@@ -1,20 +1,29 @@
 import React, { Component } from 'react';
+import { Link  } from 'react-router-dom';
 import logo from '../assets/logo.svg';
 
 class Header extends Component {
+    constructor() {
+        super();
+        this.state = {
+            showNav: false,
+        }
+    }
     render() {
         return (
-            <header className="header">
+                <header className="header">
                 <img className="logo" src={logo} alt=""/>
                 <hr className="header-line-short"/>
                 <nav className="header-content">
-                    <h1>coreyhalbert</h1>
+                    <Link to="/"><h1>coreyhalbert</h1></Link>
                     <hr/>
+                    {this.state.showNav &&
                     <ul>
                         <li><a href="#work"><h2>work</h2></a></li>
                         <li><a href="#about"><h2>about</h2></a></li>
                         <li><a href="#contact"><h2>contact</h2></a></li>
                     </ul>
+                    }
                 </nav>
                 <hr/>
             </header>
