@@ -1,0 +1,44 @@
+.project {
+    padding-left: 220px;
+    padding-bottom: 100px;
+    span {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        h1 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 900;
+            font-size: 36px;
+            color: #4A4A4A;
+        }
+        p {
+            font-family: "PT Serif", serif;
+            font-style: italic;
+            margin-right: 20px;
+            font-size: 20px;
+            margin-left: 20px;
+            color: #4A4A4A;
+        }
+    }
+    p {
+        margin-top: 20px;
+        font-family: "PT Serif", serif;
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 50%;
+        color: #4A4A4A;
+    }
+    .type-grid {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        ul {
+            li {
+                list-style: none;
+                img {
+                    width: 50vw;
+                }
+            }
+        }
+    }
+}

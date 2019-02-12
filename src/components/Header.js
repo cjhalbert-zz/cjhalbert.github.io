@@ -6,7 +6,7 @@ class Header extends Component {
     constructor() {
         super();
         this.state = {
-            showNav: false,
+            showNav: true,
         }
     }
     render() {
