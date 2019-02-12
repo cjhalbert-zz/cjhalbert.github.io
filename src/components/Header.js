@@ -9,6 +9,15 @@ class Header extends Component {
             showNav: true,
         }
     }
+
+    componentDidMount() {
+        if (window.location.pathname == "/") {
+            this.setState({showNav: true});
+        } else {
+            this.setState({showNav: false});
+        }
+    }
+
     render() {
         return (
                 <header className="header">

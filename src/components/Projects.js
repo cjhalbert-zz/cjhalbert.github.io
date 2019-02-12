@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import A from '/Applications/MAMP/htdocs/portfolio/src/assets/A.svg'
+import A from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/A.svg'
 import Brec from '/Applications/MAMP/htdocs/portfolio/src/assets/brec.png'
 import goth from '/Applications/MAMP/htdocs/portfolio/src/assets/goth.png';
 import whocares from '/Applications/MAMP/htdocs/portfolio/src/assets/whocares.svg';
