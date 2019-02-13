@@ -11,6 +11,7 @@ class Project extends Component {
     }
 
     componentDidMount() {
+        window.scrollTo(0, 0);
         this.setState({project: this.props.match.params.project}, function() {
             console.log(this.state.project);
         });

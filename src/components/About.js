@@ -4,7 +4,7 @@ import corey from '/Applications/MAMP/htdocs/portfolio/src/assets/corey.jpg'
 class About extends Component {
     render() {
         return (
-            <main name="about" className="about">
+            <main id="about" className="about">
                 <h1 className="heading-1">about</h1>
                 <section className="about-section">
                     <img src={corey} alt=""/>

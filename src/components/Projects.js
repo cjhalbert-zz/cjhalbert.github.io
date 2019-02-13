@@ -46,7 +46,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <main name="work" className="work">
+            <main id="work" className="work">
                 <h1 className="heading-1">work</h1>
                 <section className="work-section">
                     <ul id="projects-list" className="projects-list">
