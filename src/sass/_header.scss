@@ -24,7 +24,9 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-left: 203px;
+        margin-right: 100px;
         width: 100%;
         a {
             text-decoration: none;
@@ -32,7 +34,7 @@
         h1 {
             font-family: "Montserrat", sans-serif;
             font-weight: 900;
-            color: #4A4A4A;
+            color: black;
             padding: 20px;
             font-size: 36px;
             background-color: #FFFCF7;
@@ -50,12 +52,46 @@
                         font-family: "Montserrat", sans-serif;
                         font-weight: 300;
                         font-style: italic;
-                        color: #4A4A4A;
+                        color: black;
                         padding: 20px;
                         font-size: 36px;
                         background-color: #FFFCF7;
                     }
                 }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    .header {
+        .header-content {
+            ul {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 750px) {
+    .header {
+        .header-content {
+            margin-right: 50px;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .header {
+        .logo {
+            width: 90px;
+            left: 0;
+        }
+        .header-content {
+            margin-left: 90px;
+            margin-right: 25px;
+            h1 {
+                font-size: 25px;
+            }
+            ul {
+                display: none;
             }
         }
     }

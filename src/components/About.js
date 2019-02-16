@@ -9,7 +9,7 @@ class About extends Component {
                 <section className="about-section">
                     <img src={corey} alt=""/>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in, congue sem. Nulla a elit eu quam accumsan ullamcorper ut ut ante. Suspendisse erat justo, suscipit quis massa eu, blandit scelerisque est. Sed iaculis sed libero vitae eleifend. Sed at mi ullamcorper, lacinia lacus sit amet, bibendum eros. Sed nec pulvinar erat. Nullam consequat urna risus, a porttitor massa euismod vel.
+                    I am a student at Ball State University currently pursuing a degree in Creation, Analysis, and Implementation of Emerging Media and Technology, a major that I have created. With my job at the Digital Corps, I work with designers, developers, videographers, user experience designers, and communications experts to develop websites, apps, and other creative projects for Ball State. I have a strong passion for music and fashion, and both of these have a huge influence on my design work.
                     </p>
                 </section>
             </main>

@@ -22,7 +22,7 @@ import Q from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/Q.svg'
 export const thirtysixdaysoftype = (
     <main className="project">
         <span><h1>36 Days Of Type</h1><p className="project-type">digital illustration</p></span>
-        <p className="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in, congue sem. Nulla a elit eu quam accumsan ullamcorper ut ut ante.</p>
+        <p className="project-desc">36 Days of Type is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.</p>
         <section className="type-grid">
             <ul>
                 <li><img src={A} alt=""/></li>

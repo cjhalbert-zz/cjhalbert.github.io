@@ -42,6 +42,7 @@ class Projects extends Component {
 
     componentDidMount() {
         this.projectPreview();
+        window.scrollTo(0,0);
     }
 
     render() {
@@ -56,7 +57,7 @@ class Projects extends Component {
                                 <h2>36 DAYS OF TYPE</h2>
                             </span>
                             <div className="tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
+                                <p>36 Days of Type is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet.</p>
                                 <Link to="/Project/thirtysixdaysoftype"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>

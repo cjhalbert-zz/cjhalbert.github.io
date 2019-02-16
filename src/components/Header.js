@@ -22,10 +22,8 @@ class Header extends Component {
         return (
                 <header className="header">
                 <img className="logo" src={logo} alt=""/>
-                <hr className="header-line-short"/>
                 <nav className="header-content">
                     <Link to="/"><h1>coreyhalbert</h1></Link>
-                    <hr/>
                     {this.state.showNav &&
                     <ul>
                         <li><a href="#work"><h2>work</h2></a></li>
@@ -34,7 +32,6 @@ class Header extends Component {
                     </ul>
                     }
                 </nav>
-                <hr/>
             </header>
         )
     }

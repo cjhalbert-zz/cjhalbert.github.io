@@ -8,7 +8,7 @@
             font-family: "Montserrat", sans-serif;
             font-weight: 900;
             font-size: 36px;
-            color: #4A4A4A;
+            color: black;
             margin-left: 203px;
         }
         .project-type {
@@ -17,7 +17,7 @@
             margin-right: 20px;
             font-size: 20px;
             margin-left: 20px;
-            color: #4A4A4A;
+            color: black;
         }
     }
     .project-desc {
@@ -26,7 +26,7 @@
         font-size: 16px;
         line-height: 25px;
         max-width: 50%;
-        color: #4A4A4A;
+        color: black;
         margin-left: 203px;
     }
     .type-grid {
@@ -49,7 +49,29 @@
     font-family: "PT Serif", serif;
     font-style: italic;
     font-size: 36px;
-    color: #4a4a4a;
+    color: black;
     text-decoration: underline;
     text-align: center;
+    margin-left: 103px;
+}
+@media screen and (max-width: 600px) {
+    .project {
+        span {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            h1 {
+                margin-left: 103px;
+            }
+            .project-type {
+                margin-left: 103px;
+                margin-top: 20px;
+            }
+        }
+        .project-desc {
+            margin-left: 103px;
+            margin-top: 50px;
+            max-width: 60%;
+        }
+    }
 }
