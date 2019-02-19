@@ -52,6 +52,7 @@ class Projects extends Component {
                 <section className="work-section">
                     <ul id="projects-list" className="projects-list">
                         <li id="tab-1" onClick={() => this.toggleActiveTab('tab-1')}>
+                            <img className="project-preview-img" src={A} alt=""/>
                             <span>
                                 <p>digital illustration</p>
                                 <h2>36 DAYS OF TYPE</h2>
@@ -62,6 +63,7 @@ class Projects extends Component {
                             </div>
                         </li>
                         <li id="tab-2" onClick={() => this.toggleActiveTab('tab-2')}>
+                            <img className="project-preview-img" src={Brec} alt=""/>
                             <span>
                                 <p>web design</p>
                                 <h2>BENEFICENCE RECORDS</h2>
@@ -72,6 +74,7 @@ class Projects extends Component {
                             </div>
                         </li>
                         <li id="tab-3" onClick={() => this.toggleActiveTab('tab-3')}>
+                            <img className="project-preview-img" src={goth} alt=""/>
                             <span>
                                 <p>digital illustration</p>
                                 <h2>SHOW POSTERS</h2>
@@ -82,6 +85,7 @@ class Projects extends Component {
                             </div>
                         </li>
                         <li id="tab-4" onClick={() => this.toggleActiveTab('tab-4')}>
+                            <img className="project-preview-img" src={whocares} alt=""/>
                             <span>
                                 <p>digital illustration</p>
                                 <h2>WHOCARES VISUAL STYLE</h2>
@@ -92,6 +96,7 @@ class Projects extends Component {
                             </div>
                         </li>
                         <li id="tab-5" onClick={() => this.toggleActiveTab('tab-5')}>
+                            <img className="project-preview-img" src={iec} alt=""/>
                             <span>
                                 <p>web design</p>
                                 <h2>INNOVATIVE EDUCATORS CONFERENCE</h2>
@@ -102,6 +107,7 @@ class Projects extends Component {
                             </div>
                         </li>
                         <li id="tab-6" onClick={() => this.toggleActiveTab('tab-6')}>
+                            <img className="project-preview-img" src={rip} alt=""/>
                             <span>
                                 <p>branding</p>
                                 <h2>MAXWELL DENARI</h2>
@@ -112,6 +118,7 @@ class Projects extends Component {
                             </div>
                         </li>
                         <li id="tab-7" onClick={() => this.toggleActiveTab('tab-7')}>
+                            <img className="project-preview-img" src={max} alt=""/>
                             <span>
                                 <p>branding</p>
                                 <h2>REST IN PEACH</h2>

@@ -57,11 +57,11 @@
         .about-section {
             flex-direction: column;
             img {
-                width: calc(100% - 50px);
-                margin-left: 50px;
+                width: 100%;
+                margin-left: 0;
             }
             p {
-                margin-left: 100px;
+                margin-left: 40px;
             }
         }
     }

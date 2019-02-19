@@ -75,3 +75,14 @@
         }
     }
 }
+
+.show-posters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    img {
+        width: 50%;
+        margin-top: 100px;
+    }
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+
 import A from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/A.svg'
 import B from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/B.svg'
 import C from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/C.svg'
@@ -17,6 +18,9 @@ import N from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/N.svg'
 import O from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/O.svg'
 import P from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/P.svg'
 import Q from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/Q.svg'
+
+import aaf from '/Applications/MAMP/htdocs/portfolio/src/assets/aaf.png';
+import goth from '/Applications/MAMP/htdocs/portfolio/src/assets/goth.png';
 
 
 export const thirtysixdaysoftype = (
@@ -59,6 +63,12 @@ export const showposters = (
         <section className="project-section"></section>
         <span><h1>Show Posters</h1><p className="project-type">digital illustration</p></span>
         <p className="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in, congue sem. Nulla a elit eu quam accumsan ullamcorper ut ut ante.</p>
+        <section className="show-posters">
+            <img src={aaf} alt=""/>
+            <p>American Advertising Federation poster</p>
+            <img src={goth} alt=""/>
+            <p>DOOM AND GLOOM poster</p>
+        </section>
     </main>
 )
 export const whocares = (

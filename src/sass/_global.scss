@@ -21,7 +21,7 @@ body {
 @media screen and (max-width: 600px) {
     body {
         &:before {
-            left: 50px;
+            display: none;
         }
     }
 }
@@ -50,6 +50,6 @@ main {
 }
 @media screen and (max-width: 600px) {
     .heading-1 {
-        margin: 100px 0 100px 100px;
+        margin: 100px 0 100px 40px;
     }
 }
