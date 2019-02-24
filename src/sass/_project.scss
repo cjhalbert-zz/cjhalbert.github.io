@@ -34,6 +34,8 @@
         display: flex;
         justify-content: center;
         margin-top: 100px;
+        border-top: 2px solid #979797;
+        padding-top: 100px;
         ul {
             li {
                 list-style: none;
@@ -53,6 +55,7 @@
     text-decoration: underline;
     text-align: center;
     margin-left: 103px;
+    margin-top: 100px;
 }
 @media screen and (max-width: 600px) {
     .project {
@@ -81,8 +84,159 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    border-top: 2px solid #979797;
+    margin-top: 100px;
     img {
         width: 50%;
         margin-top: 100px;
     }
+    p {
+        margin-top: 50px;
+        font-family: "PT Serif", serif;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 35px;
+        max-width: 800px;
+        color: black;
+    }
 }
+
+.grid {
+    border-top: 2px solid #979797;
+    margin-top: 100px;
+    width: 100%;
+    ul {
+        margin-left: 203px;
+        margin-right: 100px;
+        margin-top: 100px;
+        display: grid;
+        grid-gap: 100px;
+        grid-template-columns: 1fr 1fr;
+        li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.whocares {
+    ul {
+        grid-template-areas: 
+            'full full'
+            'square lines'
+            'stacked stacked'
+            'stacked stacked'
+            'wave wavey'
+            'outline offset';
+        #whocares-full {
+            grid-area: full;
+        }
+        #whocares-square {
+            grid-area: square;
+        }
+        #whocares-lines {
+            grid-area: lines;
+        }
+        #whocares-stacked {
+            grid-area: stacked;
+        }
+        #whocares-wave {
+            grid-area: wave;
+        }
+        #whocares-wavey {
+            grid-area: wavey;
+        }
+        #whocares-outline {
+            grid-area: outline;
+        }
+        #whocares-offset {
+            grid-area: offset;
+        }
+    }
+}
+.benrec-website {
+    border-top: 2px solid #979797;
+    padding-top: 100px;
+    margin-top: 100px;
+    padding-right: 100px;
+    padding-left: 203px;
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+        margin-bottom: 50px;
+    }
+    ul {
+        li {
+            list-style: none;
+            img {
+                width: 100%;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+.beneficence-records {
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+        margin-bottom: 50px;
+        margin-left: 203px;
+        margin-top: 100px;
+    }
+    ul {
+        grid-template-areas:
+            'old1 old2'
+            'old3 old4'
+            'new1 new2'
+            'new3 new4';
+    }
+}
+
+.stretch-column-grid {
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+.stretch-row-grid {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.maxwell {
+    ul {
+        li {
+            img {
+                margin-top: 100px;
+            }
+            #final-vert {
+                padding: 0 300px;
+            }
+        }
+        
+    }
+}
+
+.iec {
+    padding-left: 203px;
+    padding-right: 100px;
+    margin-top: 100px;
+    padding-top: 100px;
+    border-top: 2px solid #979797;
+    ul {
+        li {
+            list-style: none;
+            img {
+                width: 100%;
+                margin-top: 100px;
+            }
+        }
+    }
+}
+

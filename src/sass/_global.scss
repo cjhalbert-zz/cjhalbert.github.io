@@ -18,6 +18,12 @@ body {
         z-index: 1;
     }
 }
+p,h1,h2 {
+    &::selection {
+        color: white;
+        background: black;
+    }
+}
 @media screen and (max-width: 600px) {
     body {
         &:before {

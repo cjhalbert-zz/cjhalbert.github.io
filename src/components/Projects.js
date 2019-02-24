@@ -35,8 +35,6 @@ class Projects extends Component {
             document.getElementById('project-preview').src=iec;
         } else if (document.getElementById('tab-6').classList.contains('active-tab')) {
             document.getElementById('project-preview').src=max;
-        } else if (document.getElementById('tab-7').classList.contains('active-tab')) {
-            document.getElementById('project-preview').src=rip;
         }
     }
 
@@ -69,7 +67,7 @@ class Projects extends Component {
                                 <h2>BENEFICENCE RECORDS</h2>
                             </span>
                             <div className="tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
+                                <p>Beneficence Records is a record label in Muncie, Indiana comprised completely of Ball State University students. Their mission statement is to, "Provide a platform for local artists to support charities and nonprofits through music."</p>
                                 <Link to="/Project/beneficencerecords"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
@@ -91,7 +89,7 @@ class Projects extends Component {
                                 <h2>WHOCARES VISUAL STYLE</h2>
                             </span>
                             <div className="tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
+                                <p>whocares is an indie rock band from Muncie, Indiana that I play guitar for.</p>
                                 <Link to="/Project/whocares"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
@@ -115,17 +113,6 @@ class Projects extends Component {
                             <div className="tab-content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
                                 <Link to="/Project/maxwelldenari"><button className="checkout-button">check it out</button></Link>
-                            </div>
-                        </li>
-                        <li id="tab-7" onClick={() => this.toggleActiveTab('tab-7')}>
-                            <img className="project-preview-img" src={max} alt=""/>
-                            <span>
-                                <p>branding</p>
-                                <h2>REST IN PEACH</h2>
-                            </span>
-                            <div className="tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
-                                <Link to="/Project/restinpeach"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                     </ul>

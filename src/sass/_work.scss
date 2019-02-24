@@ -101,8 +101,19 @@
     .work {
         .project-preview {
             right: 50px;
-            width: 300px;
-            height: 300px;
+            width: 350px;
+            height: 350px;
+        }
+        .work-section {
+            .projects-list {
+                li {
+                    .tab-content {
+                        p {
+                            max-width: 400px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -120,6 +131,9 @@
                     }
                     .tab-content {
                         display: block;
+                        p {
+                            max-width: 700px;
+                        }
                     }
                     &:hover {
                         background-color: #FFFCF6;
@@ -140,6 +154,12 @@
                     padding-left: 203px;
                     span {
                         flex-direction: column;
+                    }
+                    .tab-content {
+                        display: block;
+                        p {
+                            max-width: 700px;
+                        }
                     }
                 }
             }
