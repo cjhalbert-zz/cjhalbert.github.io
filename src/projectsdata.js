@@ -164,6 +164,7 @@ export const innovativeeducatorsconference = (
                 <li><img src={iecProgram} alt=""/></li>
             </ul>
         </section>
+        <Link to="/"><p className="back-to-home">Back to Home</p></Link>
     </main>
 )
 export const maxwelldenari = (
@@ -186,5 +187,6 @@ export const maxwelldenari = (
                 <li className="stretch-column-grid"><img src={maxFinalHoriz} alt=""/></li>
             </ul>
         </section>
+        <Link to="/"><p className="back-to-home">Back to Home</p></Link>
     </main>
 )

@@ -25,6 +25,12 @@ class Contact extends Component {
                         <a href="https://www.instagram.com/cjhalbert/?hl=en"><h2>@cjhalbert</h2></a>
                     </div>
                 </section>
+                <section className="contact-section">
+                    <div>
+                        <p>github</p>
+                        <a href="https://github.com/cjhalbert"><h2>@cjhalbert_</h2></a>
+                    </div>
+                </section>
             </main>
         )
     }
