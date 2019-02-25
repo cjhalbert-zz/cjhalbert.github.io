@@ -38,6 +38,7 @@ class Projects extends Component {
     }
 
     componentDidMount() {
+        document.getElementById('tab-1').classList.add('active-tab');
         this.projectPreview();
         window.scrollTo(0,0);
     }

@@ -96,6 +96,13 @@
             width: 500px;
         }
     }
+    @media screen and (max-width: 1500px) {
+        .project-preview {
+            img {
+                width: 350px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 1500px) {
     .work {
