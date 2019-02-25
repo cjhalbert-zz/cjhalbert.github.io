@@ -9,7 +9,7 @@ class Splash extends Component {
                 <section className="page-section">
                     <h1>HELLO</h1>
                     <p>I'm Corey, check out some stuff I do</p>
-                    <img src={arrow} alt=""/>
+                    <a href="/#work"><img src={arrow} alt=""/></a>
                 </section>
             </main>
         )
