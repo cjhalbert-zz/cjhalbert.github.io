@@ -7,7 +7,7 @@ class Contact extends Component {
                 <h1 className="heading-1">contact</h1>
                 <section className="contact-section">
                     <div>
-                        <p>email address</p>
+                        <p>email</p>
                         <h2>halbertco.2015@gmail.com</h2>
                     </div>
                     <div>
