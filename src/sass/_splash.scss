@@ -6,6 +6,7 @@
         align-items: center;
         position: relative;
         padding-left: 103px;
+        margin-bottom: 100px;
         h1 {
             font-family: "Montserrat", sans-serif;
             color: black;
@@ -22,6 +23,21 @@
         img {
             height: 40px;
             margin-top: 100px;
+        }
+    }
+}
+@media screen and (max-height: 850px) {
+    .splash {
+        section {
+            h1 {
+                font-size: 200px;
+            }
+            p {
+                font-size: 30px;
+            }   
+            img {
+                height: 30px;
+            }
         }
     }
 }
