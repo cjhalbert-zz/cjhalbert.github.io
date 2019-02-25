@@ -89,7 +89,7 @@ class Projects extends Component {
                                 <h2>WHOCARES VISUAL STYLE</h2>
                             </span>
                             <div className="tab-content">
-                                <p>whocares is an indie rock band from Muncie, Indiana that I play guitar for.</p>
+                                <p>Whocares is an indie rock band from Muncie, Indiana composed of five Ball State University students, including myself.</p>
                                 <Link to="/Project/whocares"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
@@ -100,18 +100,18 @@ class Projects extends Component {
                                 <h2>INNOVATIVE EDUCATORS CONFERENCE</h2>
                             </span>
                             <div className="tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
+                                <p>The Innovative Educators Conference is a yearly conference held at Ball State University that explores a variety of topics related to community engagement and project-based learning. The conference is for at educators in the state of Indiana and aims to inspire growth in Indiana schools and their communities.</p>
                                 <Link to="/Project/innovativeeducatorsconference"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
                         <li id="tab-6" onClick={() => this.toggleActiveTab('tab-6')}>
-                            <img className="project-preview-img" src={rip} alt=""/>
+                            <img className="project-preview-img" src={max} alt=""/>
                             <span>
                                 <p>branding</p>
                                 <h2>MAXWELL DENARI</h2>
                             </span>
                             <div className="tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
+                                <p>Maxwell Denari is a freelance writer and photographer who has an immense passion for music and storytelling. </p>
                                 <Link to="/Project/maxwelldenari"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>

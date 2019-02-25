@@ -137,7 +137,7 @@ export const showposters = (
 export const whocares = (
     <main className="project">
         <span><h1>Who Cares Visual Style</h1><p className="project-type">digital illustration</p></span>
-        <p className="project-desc">whocares is an indie rock band from Muncie, Indiana that I play guitar for. I started the band with a few of my close friends and we've played bars and basements across Muncie for the past school year. As a fun side project, I decided to brand the band and create a visual style for social media, posters, and merchandise. I decided to try to make the visual style for the band as far from the actual sound as possible as a sort of inside joke between the members of the band.</p>
+        <p className="project-desc">whocares is an indie rock band from Muncie, Indiana that I play guitar for. I started the band with a few of my close friends and we've played bars and basements across Muncie for the past school year.<br/><br/> As a fun side project, I decided to brand the band and create a visual style for social media, posters, and merchandise. I decided to try to make the visual style for the band as far from the actual sound as possible as a sort of inside joke between the members of the band.</p>
         <section className="grid whocares">
             <ul>
                 <li id="whocares-full"><img src={whocaresFull} alt=""/></li>
@@ -156,7 +156,7 @@ export const whocares = (
 export const innovativeeducatorsconference = (
     <main className="project">
         <span><h1>Innovative Educators Conference</h1><p className="project-type">web design</p></span>
-        <p className="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in, congue sem. Nulla a elit eu quam accumsan ullamcorper ut ut ante.</p>
+        <p className="project-desc">The Innovative Educators Conference is a yearly conference held at Ball State University that explores a variety of topics related to community engagement and project-based learning. The conference is for at educators in the state of Indiana and aims to inspire growth in Indiana schools and their communities.<br/><br/>I was part of a team of designers, developers, and content writers that created the website for the upcoming conference in 2019. As part of this team I created high-fidelity mockups and worked with another designer to do HTML and CSS for the site.</p>
         <section className="iec">
             <ul>
                 <li><img src={iecHome} alt=""/></li>
@@ -171,18 +171,25 @@ export const maxwelldenari = (
     <main className="project">
         <section className="project-section"></section>
         <span><h1>Maxwell Denari</h1><p className="project-type">branding</p></span>
-        <p className="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in, congue sem. Nulla a elit eu quam accumsan ullamcorper ut ut ante.</p>
+        <p className="project-desc">Maxwell Denari is a freelance writer and photographer who has an immense passion for music and storytelling. Maxwell reached out to me to design a logo for his personal brand so we started working together. Over the course of a few ideas, revisions, and redesigns, we eventually came to a logo that he and I were both excited about.</p>
         <section className="grid maxwell">
+            <h1>Ideas</h1>
             <ul>
                 <li className="stretch-row-grid"><img src={maxStacked} alt=""/></li>
                 <li className="stretch-row-grid"><img src={maxLogoStacked} alt=""/></li>
                 <li><img src={maxMtv} alt=""/></li>
                 <li><img src={maxMtvFade} alt=""/></li>
                 <li className="stretch-column-grid"><img src={maxWeird} alt=""/></li>
+            </ul>
+            <h1>Final Mockups</h1>
+            <ul>
                 <li className="stretch-column-grid"><img src={maxMockup1} alt=""/></li>
                 <li className="stretch-column-grid"><img src={maxMockup2} alt=""/></li>
                 <li className="stretch-column-grid"><img src={maxMockup3} alt=""/></li>
                 <li className="stretch-column-grid"><img src={maxMockup4} alt=""/></li>
+            </ul>
+            <h1>Final Designs</h1>
+            <ul>
                 <li className="stretch-column-grid"><img id="final-vert" src={maxFinalVert} alt=""/></li>
                 <li className="stretch-column-grid"><img src={maxFinalHoriz} alt=""/></li>
             </ul>

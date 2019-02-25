@@ -10,6 +10,7 @@
             font-size: 36px;
             color: black;
             margin-left: 203px;
+            margin-right: 40px;
         }
         .project-type {
             font-family: "PT Serif", serif;
@@ -46,6 +47,17 @@
             }
         }
     }
+    @media screen and (max-width: 600px) {
+        .type-grid {
+            ul {
+                li {
+                    img {
+                        width: 100vw;
+                    }
+                }
+            }
+        }
+    }
 }
 .back-to-home {
     font-family: "PT Serif", serif;
@@ -54,7 +66,6 @@
     color: black;
     text-decoration: underline;
     text-align: center;
-    margin-left: 103px;
     margin-top: 100px;
 }
 @media screen and (max-width: 600px) {
@@ -64,17 +75,17 @@
             justify-content: flex-start;
             align-items: flex-start;
             h1 {
-                margin-left: 103px;
+                margin-left: 40px;
             }
             .project-type {
-                margin-left: 103px;
+                margin-left: 40px;
                 margin-top: 20px;
             }
         }
         .project-desc {
-            margin-left: 103px;
+            margin-left: 40px;
             margin-top: 50px;
-            max-width: 60%;
+            max-width: 80%;
         }
     }
 }
@@ -96,8 +107,19 @@
         font-style: italic;
         font-size: 20px;
         line-height: 35px;
-        max-width: 800px;
+        max-width: 50vw;
         color: black;
+    }
+}
+@media screen and (max-width: 600px) {
+    .show-posters {
+        img {
+            width: 100%;
+        }
+        p {
+            margin: 50px;
+            max-width: 80vw;
+        }
     }
 }
 
@@ -106,8 +128,8 @@
     margin-top: 100px;
     width: 100%;
     ul {
-        margin-left: 203px;
-        margin-right: 100px;
+        padding-left: 203px;
+        padding-right: 100px;
         margin-top: 100px;
         display: grid;
         grid-gap: 100px;
@@ -158,6 +180,31 @@
         }
     }
 }
+@media screen and (max-width: 1000px) {
+    .whocares {
+        ul {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                'full'
+                'square'
+                'lines'
+                'stacked'
+                'wave'
+                'wavey'
+                'outline'
+                'offset';
+
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .whocares {
+        ul {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+}
 .benrec-website {
     border-top: 2px solid #979797;
     padding-top: 100px;
@@ -199,6 +246,35 @@
             'new3 new4';
     }
 }
+@media screen and (max-width: 600px) {
+    .benrec-website {
+        padding-left: 0;
+        padding-right: 0;
+        h1 {
+            padding-left: 40px;
+        }
+    }
+    .beneficence-records {
+        h1 {
+            padding-left: 40px;
+            margin-left: 0;
+        }
+        ul {
+            padding-left: 0;
+            padding-right: 0;
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+                'old1'
+                'old2'
+                'old3'
+                'old4'
+                'new1'
+                'new2'
+                'new3'
+                'new4';
+        }
+    }
+}
 
 .stretch-column-grid {
     grid-column-start: 1;
@@ -208,18 +284,61 @@
     grid-row-start: 1;
     grid-row-end: 3;
 }
+@media screen and (max-width: 1000px) {
+    .stretch-column-grid {
+        grid-column-start: unset;
+        grid-column-end: unset; 
+    }
+    .stretch-row-grid {
+        grid-row-start: unset;
+        grid-row-end: unset;
+    }
+}
 
 .maxwell {
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+        margin-bottom: 50px;
+        margin-left: 203px;
+        margin-top: 100px;
+    }
     ul {
+        border-bottom: 2px solid #979797;
+        padding-bottom: 100px;
         li {
             img {
                 margin-top: 100px;
             }
             #final-vert {
-                padding: 0 300px;
+                padding: 0 16vw;
             }
         }
         
+    }
+}
+@media screen and (max-width: 1000px) {
+    .maxwell {
+        ul {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .maxwell {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            font-size: 32px;
+            align-self: center;
+            margin-left: 0;
+        }
+        ul {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
     }
 }
 
@@ -237,6 +356,12 @@
                 margin-top: 100px;
             }
         }
+    }
+}
+@media screen and (max-width: 600px) {
+    .iec {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
