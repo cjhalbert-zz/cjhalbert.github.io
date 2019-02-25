@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import A from '/Applications/MAMP/htdocs/portfolio/src/assets/Type/A.svg'
-import Brec from '/Applications/MAMP/htdocs/portfolio/src/assets/brec.png'
-import goth from '/Applications/MAMP/htdocs/portfolio/src/assets/goth.png';
-import whocares from '/Applications/MAMP/htdocs/portfolio/src/assets/whocares.svg';
-import iec from '/Applications/MAMP/htdocs/portfolio/src/assets/iec.png';
-import rip from '/Applications/MAMP/htdocs/portfolio/src/assets/rip.svg';
-import max from '/Applications/MAMP/htdocs/portfolio/src/assets/max.svg';
+import A from '../assets/Type/A.svg'
+import Brec from '../assets/brec.png'
+import goth from '../assets/goth.png';
+import whocares from '../assets/whocares.svg';
+import iec from '../assets/iec.png';
+import max from '../assets/max.svg';
 
 
 

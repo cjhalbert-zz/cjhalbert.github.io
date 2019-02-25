@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import corey from '/Applications/MAMP/htdocs/portfolio/src/assets/corey.jpg'
+import corey from '../assets/corey.jpg'
 
 class About extends Component {
     render() {
