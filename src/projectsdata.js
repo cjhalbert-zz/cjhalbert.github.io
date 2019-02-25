@@ -64,7 +64,7 @@ import iecProgram from './assets/iec/iec-program.png';
 export const thirtysixdaysoftype = (
     <main className="project">
         <span><h1>36 Days Of Type</h1><p className="project-type">digital illustration</p></span>
-        <p className="project-desc">36 Days of Type is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet. I decided to participate in 36 Days of Type in 2016 to flex my creative muscle and attempt some illustration styles outside my comfort zone. Unfortunately, I was not able to finish the entire alphabet however, as other responsiblities had to come first.</p>
+        <p className="project-desc">36 Days of Type is a yearly open call inviting designers, illustrators and visual artists to share their view on the letters and numbers from our alphabet. I decided to participate in 36 Days of Type in 2016 to flex my creative muscle and attempt some illustration styles outside my comfort zone. Unfortunately, I was not able to finish the entire alphabet, as other responsiblities had come up.</p>
         <section className="type-grid">
             <ul>
                 <li><img src={A} alt=""/></li>

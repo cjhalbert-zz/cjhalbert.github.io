@@ -78,7 +78,7 @@ class Projects extends Component {
                                 <h2>SHOW POSTERS</h2>
                             </span>
                             <div className="tab-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus metus, sollicitudin ac mi sed, aliquet scelerisque magna. Aenean sit amet magna blandit, lobortis mauris in.</p>
+                                <p>I am very connected to the local music scene in my college town, and attend several concerts, shows, and festivals put on by local bands and organizers. On several occasions I have been asked to design flyers or posters for some of these shows. I have tried to challenge myself by designing each poster in a radically different style.</p>
                                 <Link to="/Project/showposters"><button className="checkout-button">check it out</button></Link>
                             </div>
                         </li>
