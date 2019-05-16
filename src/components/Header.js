@@ -29,7 +29,7 @@ class Header extends Component {
                         <li><a href="#work"><h2>work</h2></a></li>
                         <li><a href="#about"><h2>about</h2></a></li>
                         <li><a href="#contact"><h2>contact</h2></a></li>
-                        <li><a href="/gimmicks"><h2>gimmicks</h2></a></li>
+                        <li><Link to="/gimmicks"><h2>gimmicks</h2></Link></li>
                     </ul>
                     }
                 </nav>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link  } from 'react-router-dom';
 
 import winner from '../assets/gimmicks/winner.png'
 import ketchup from '../assets/gimmicks/ketchup.jpg'
@@ -32,7 +33,7 @@ class Gimmicks extends Component {
                 <div id="thing" className="thing"></div>
                 <section className="gimmicks-title" onMouseMove={(evt) => this.followThing(evt)}>
                     <h1>GIMMICKS</h1>
-                    <a href="/gallery">GIMMICKS GALLERY</a>
+                    <Link to="/gallery">GIMMICKS GALLERY</Link>
                     <svg class="icon arrow" height="512" viewBox="0 0 1024 1024" version="1.1" 
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M49.261 341.088l123.607-123.485 339.206 339.17 339.074-339.17 123.559 123.485-462.63 462.81z" />
