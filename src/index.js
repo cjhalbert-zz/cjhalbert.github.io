@@ -7,7 +7,7 @@ import Gimmicks from './components/Gimmicks';
 import Gallery from './components/Gallery';
 
 const routing = (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <div>
             <Route exact path="/" component={App} />
             <Route path="/gimmicks" component={Gimmicks} />
